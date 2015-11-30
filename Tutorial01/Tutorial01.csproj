@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Examples\Arguments.il" />
     <Compile Include="Exercises\Exercise01.il" />
     <Compile Include="Exercises\Exercise02.il" />
     <Compile Include="Exercises\Exercise03.il" />
@@ -56,6 +57,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <CompileDependsOn>

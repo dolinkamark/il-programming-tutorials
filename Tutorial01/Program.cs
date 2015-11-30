@@ -17,6 +17,8 @@ namespace Tutorial01
             Console.WriteLine(Exercise02(2, 1));
             Console.WriteLine(Exercise03(20, 15));
 
+            Console.WriteLine(MultiplySum(1, 2, 3, 4, 5));
+
             Console.ReadKey();
         }
         
@@ -25,6 +27,9 @@ namespace Tutorial01
 
         [MethodImpl(MethodImplOptions.ForwardRef)]
         public static extern void HelloWorld();
+
+        [MethodImpl(MethodImplOptions.ForwardRef)]
+        public static extern int MultiplySum(int a, int b, int c, int d, int e);
 
         //Exercise 01
         [MethodImpl(MethodImplOptions.ForwardRef)]
