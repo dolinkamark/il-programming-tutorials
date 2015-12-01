@@ -16,4 +16,13 @@
 		mul
 		ret
 	}
+
+	.method public static int32 Add(int32, int32)
+	{
+		.maxstack 2
+		ldarg.0
+		ldarg.1
+		add
+		ret
+	}
 }
