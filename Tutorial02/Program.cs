@@ -1,4 +1,5 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System;
+using System.Runtime.CompilerServices;
 
 namespace Tutorial02
 {
@@ -6,7 +7,16 @@ namespace Tutorial02
 	{
 		static void Main(string[] args)
 		{
-			
+			Console.WriteLine("Conditions");
+
+			if (IsBiggerThan(10, 5))
+			{
+				Console.WriteLine("Wow, 10 is bigger than 5.");
+			}
+
+			Console.WriteLine();
+
+			Console.ReadKey();
 		}
 
 		[MethodImpl(MethodImplOptions.ForwardRef)]
