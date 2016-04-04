@@ -46,7 +46,8 @@
     <Compile Include="Loops.il" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Variables.il" />
+    <Compile Include="LocalVariables.il" />
+    <Compile Include="RefAndOutParameters.il" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
